@@ -5,7 +5,11 @@ import sys
 
 
 def main():
+<<<<<<< HEAD
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'testDjango.settings')
+=======
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'superlists.settings')
+>>>>>>> superlists first commit
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
